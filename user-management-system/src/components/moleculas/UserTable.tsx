@@ -137,9 +137,9 @@ function UserTable() {
     return (
         <div className="p-6 bg-white shadow-lg rounded-xl">
             <div className="flex gap-[50px] justify-between ">
-                
-                    <h2 className="text-2xl font-semibold  text-gray-800 mb-5">User Management</h2>
-                
+
+                <h2 className="text-2xl font-semibold  text-gray-800 mb-5">User Management</h2>
+
                 <Button onClick={() => setAddUserOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white mt-15 ">
                     + Add User
                 </Button>
